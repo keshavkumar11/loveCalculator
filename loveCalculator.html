@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>💌💌💟💟💝💘💝💖❣💓💘 Love Calculator 💖❤💔💗💝💘💝💟💟💌💌</h1>
+    <h1>Type your and your crush name and get your LOVE PERCENTAGE</h1>
+    Your Name:- <input type="text" id="demo"> 💘
+    Your Crush Name:- <input type="text" id="demo1">
+    <button onclick="Calculate()" > Calculate</button>
+    <script type="text/javascript">
+        function Calculate(){
+            var n = Math.random();
+            n = (n*100)+1;
+
+            if(Math.floor(n)<=100&&Math.floor(n)>=90){
+                alert("Here is Your Love Percentage " + Math.floor(n)+"%"+"<br>"+"You both love each other as KRISHNA 💖 RADHA");
+            }
+            else if(Math.floor(n)<90&&Math.floor(n)>=80){
+                alert("Here is Your Love Percentage " + Math.floor(n)+"%."+" You both love each other as Indian 💖 Cricket");
+            }else if(Math.floor(n)<80&&Math.floor(n)>=60){
+                alert("Here is Your Love Percentage " + Math.floor(n)+"%."+" You both love each other as Heer 💖 Ranjha");
+            }else if(Math.floor(n)<60&&Math.floor(n)>=50){
+                alert("Here is Your Love Percentage " + Math.floor(n)+"%."+" You both love each other as Bajirao 💖 Mastani");
+            }else if(Math.floor(n)<50&&Math.floor(n)>=40){
+                alert("Here is Your Love Percentage " + Math.floor(n)+"%."+" You both love each other as Shahjahan 💖 Mumtaz");
+            }else{
+               alert("Here is Your Love Percentage " + Math.floor(n)+"%."+" Be Alert!!! Keep in mind you can get cheated anytime"); 
+            }
+            
+        }
+        
+        
+        
+        
+    </script>
+</body>
+</html>
